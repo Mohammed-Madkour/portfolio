@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+}
+
+.img {
+    padding-top: 150px;
+    color: gray;
+    width: fit-content;
+    margin: auto;
+}
+
+.x {
+    margin-left: 95%;
+}
+
+p {
+    width: fit-content;
+    margin: auto;
+    font-weight: 500;
+    font-size: 18px;
+}

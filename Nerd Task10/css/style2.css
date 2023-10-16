@@ -1,0 +1,17 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.container {
+    background-color: red;
+    display: grid;
+    grid-template-columns: 30px;
+    grid-template-rows: 30px;
+}
+
+.container div {
+    font-size: 30px;
+}

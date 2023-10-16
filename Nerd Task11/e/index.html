@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+</head>
+
+<style>
+    div {
+        display: flex;
+        align-items: center;
+        position: relative;
+        max-width: 400px;
+        height: 400px;
+        overflow: hidden;
+    }
+
+
+    div img {
+        position: absolute;
+        display: block;
+        width: 100%;
+        transition: linear 0.5s;
+    }
+
+    #first {
+        right: 0%;
+    }
+
+    #sec {
+        right: 100%;
+        visibility: hidden;
+    }
+
+    #third {
+        right: -100%;
+        visibility: hidden;
+    }
+</style>
+
+<body>
+    <div>
+        <img id="first" src="asura_and_goma_by_sandara-d4p7wu6-1-500x375.jpg" alt="">
+        <img id="sec" src="game-kingdoms-of-amalur-reckoning-1440x900-500x375.jpg" alt="">
+        <img id="third" src="arthas_menethil__the_lich_king_by_chaoyuanxu-d4fvima-11-500x375.jpg" alt="">
+    </div>
+
+    <button id="btn2">Button</button>
+    <button id="btn3">Button2</button>
+    <button id="btn4">Button3</button>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

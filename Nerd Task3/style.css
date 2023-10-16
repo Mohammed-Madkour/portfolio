@@ -1,0 +1,15 @@
+body {
+    background-color: white;
+}
+
+a:link {
+    background-color: yellow;
+    color: whitesmoke;
+    padding: 5px 60px;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+a:hover {
+    color: red;
+}

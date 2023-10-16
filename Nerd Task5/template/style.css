@@ -1,0 +1,284 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #777777;
+}
+
+
+
+.header {
+    background-image: url("imgs\ and\ icons/img_girl.jpg");
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 200px;
+}
+
+.header h1 {
+    color: white;
+    margin: auto;
+    background-color: black;
+    width: fit-content;
+
+}
+
+.nav-bar {
+    width: 100%;
+    position: fixed;
+    background-color: white;
+}
+
+.nav-bar img {
+    display: inline-block;
+
+}
+
+.nav-bar a {
+    color: black;
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.nav-bar a:hover {
+    background-color: gainsboro;
+}
+
+.about-section {
+    margin: auto;
+    width: 1000px;
+}
+
+.about-head {
+    color: #777777;
+    width: fit-content;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.about-head2 {
+    color: #777777;
+    font-style: italic;
+    width: fit-content;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 14px;
+    color: #777777;
+    padding: 30px;
+    line-height: 30px;
+}
+
+.my-name {
+    display: inline-block;
+    margin-left: 20%;
+}
+
+.aside {
+    width: 500px;
+    float: right;
+}
+
+.about-section h2 {
+    color: #777777;
+    width: fit-content;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.really-section p {
+    letter-spacing: 10px;
+    font-size: 17px;
+}
+
+.backg-border-1 {
+    margin-left: 35px;
+    background-color: gainsboro;
+}
+
+.p-border-1 {
+    border: solid 0px gray;
+    background-color: gray;
+    color: white;
+    border-width: 10px;
+    width: 90%;
+    text-align: center;
+}
+
+.backg-border-2 {
+    margin-left: 35px;
+    background-color: gainsboro;
+}
+
+.p-border-2 {
+    border: solid 0px gray;
+    background-color: gray;
+    color: white;
+    border-width: 10px;
+    width: 85%;
+    text-align: center;
+}
+
+.backg-border-3 {
+    margin-left: 35px;
+    background-color: gainsboro;
+}
+
+.p-border-3 {
+    border: solid 0px gray;
+    background-color: gray;
+    color: white;
+    border-width: 10px;
+    width: 75%;
+    text-align: center;
+}
+
+.things-done {
+    background-color: gray;
+    width: 100%;
+    height: 100px;
+    font-size: 20px;
+}
+
+.things-done span {
+    display: inline-block;
+    width: 24.5%;
+
+    color: white;
+    text-align: center;
+
+}
+
+/* Portfolio Section */
+
+.portfolio {
+    background-image: url("imgs\ and\ icons/Control-Logo-300x207.jpg");
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    padding-top: 200px;
+}
+
+.portfolio h1 {
+    color: white;
+    margin: auto;
+    width: fit-content;
+}
+
+.pictures {
+    margin-left: 20%;
+}
+
+.pictures-2 {
+    margin-left: 20%;
+}
+
+.pictures a {
+    display: inline-block;
+}
+
+.contact-image {
+    background-image: url("imgs\ and\ icons/free-adobe-lightroom-presets-large-1-1568x436.jpg");
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 200px;
+}
+
+.contact-image h1 {
+    color: white;
+    margin: auto;
+    width: fit-content;
+    font-size: 50px;
+}
+
+.contact {
+    margin: auto;
+    width: 1000px;
+
+}
+
+.contact img {
+    margin-left: 170px;
+}
+
+
+.contact p {
+    font-size: 18px;
+}
+
+.inputs input {
+    width: 300px;
+    height: 50px;
+}
+
+.inputs .big-input {
+    width: 500px;
+    height: 50px;
+}
+
+.inputs button {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 200px;
+}
+
+.inputs button:hover {
+    background-color: gray;
+}
+
+.footer {
+    width: 100%;
+    margin: auto;
+    padding: 50px 0px;
+    background-color: gray;
+}
+
+.footer p {
+    margin-left: 45%;
+    color: white;
+
+}
+
+.footer a {
+    color: blue;
+
+}
+
+.icons i:hover {
+    transform: scale(1.4);
+}
+
+.footer .icons {
+    margin-left: 45%;
+}
+
+
+
+.span-margin i:hover {
+    color: black;
+}
+
+.top a {
+    margin-left: 44%;
+    margin-bottom: 10px;
+    display: inline-block;
+    word-spacing: 2px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}

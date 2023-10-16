@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url(imgs/pexels-anjana-c-674010.jpg);
+    width: 500px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.part {
+    background-image: url(imgs/pexels-pixabay-268533.jpg);
+    width: 500px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: none;
+}
+

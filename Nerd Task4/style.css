@@ -1,0 +1,193 @@
+/* global */
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f7f5f2;
+}
+
+.about {
+    width: 600px;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+    padding: 5px;
+    margin: auto;
+    background-color: black;
+    width: fit-content;
+    margin-bottom: 50px;
+}
+
+
+/* Navigatin Bar */
+
+.nav {
+    width: 100%;
+    background-color: black;
+}
+
+.nav a {
+    color: white;
+    display: inline-block;
+    width: 24%;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.nav a:hover {
+    background-color: gray;
+}
+
+/* Main */
+
+.main {
+
+    background-image: url("imgs/coffeehouse.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 230px 0px;
+}
+
+.left-span-padding{
+    position: absolute;
+    padding: 180px 20px;
+}
+
+.left-span{
+    background-color: black;
+    color: white;
+    padding: 0px 5px;
+    width: fit-content;
+    
+}
+
+
+.right-span-padding{
+    position: absolute;
+    padding: 180px 20px;
+}
+
+.right-span{
+    margin-left: 1300px;
+    color: white;
+    padding: 0px 5px;
+    width: fit-content;
+    
+}
+
+
+
+.main h1 {
+    color: white;
+    text-align: center;
+    margin: 25px 0px;
+
+    font-size: 50px;
+
+}
+
+/* About Section */
+
+.about p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.span {
+    background-color: #f1f1f1;
+    border-left: solid 5px gray;
+}
+
+.span-par{
+    font-style: italic;
+}
+
+span {
+    font-weight: bold;
+}
+
+/* Menu Section */
+
+
+.Menu .menu-nav {
+    background-color: #f1f1f1;
+    border: solid gainsboro 2px;
+}
+
+.menu-nav a {
+    display: inline-block;
+    width: 49.5%;
+    padding: 10px 0px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.iframe {
+    background-color: #f1f1f1;
+    border: solid gainsboro 2px;
+}
+
+.Where {
+    width: 600px;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.inputs {
+    margin: auto;
+    width: 500px;
+    height: 50px;
+}
+
+.input-send {
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    margin: auto;
+}
+
+.imgs{
+    
+    width: 600px;
+}
+
+.where-p{
+    margin-bottom:20px ;
+}
+
+.where-p p{
+    margin: 10px 0px;
+}
+
+.where-p span{
+    background-color: black;
+    color:white;
+    padding:0px 5px;
+}
+
+/* footer */
+
+.footer{
+    width: 100%;
+    margin: auto;
+    padding: 50px 0px;
+    background-color: gray;
+}
+
+.footer p{
+    margin-left: 45%;
+    
+}

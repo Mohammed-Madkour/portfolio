@@ -1,0 +1,41 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #4d2d8d;
+    color: white;
+}
+
+.container {
+    padding-top: 50px;
+    width: fit-content;
+    margin: auto;
+}
+
+fieldset {
+    padding: 10px;
+    border: solid black 5px;
+
+}
+
+input {
+    margin: 10px 5px;
+}
+
+.input {
+    width: 200px;
+    height: 30px;
+}
+
+.sumbit {
+    background-color: black;
+    color: white;
+    border: solid black 2px;
+    font-weight: bold;
+    padding: 5px 10px;
+    font-size: 18px;
+}
